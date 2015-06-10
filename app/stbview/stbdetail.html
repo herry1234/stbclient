@@ -1,0 +1,23 @@
+<p>STB Detail Here.</p>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul ng-model="stb" class="stb">
+        <li>
+          {{stb.nfs}}
+          {{stb.ip}}
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
